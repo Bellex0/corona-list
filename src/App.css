@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+button {
+  cursor: pointer;
+  font-family:"Shadows Into Light";
+  padding: "10px";
+  margin-top: "10px"
+}
+
+button:hover {
+  background-color: palevioletred;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
