@@ -3,19 +3,18 @@ import bar from '../pics/bar.jpg';
 import train from '../pics/train.jpg';
 import meetup from '../pics/meetup.jpg';
 import touchface from '../pics/touchface.gif';
-import restaurant from '../pics/restaurant.png';
-import walking from '../pics/walking.png'
+import restaurant from '../pics/restaurant.jpg';
+import walking from '../pics/walking.jpg'
 
 class Main extends Component {   
 
 
     state = {
         index: 0, 
-        picList: [bar, train, meetup, touchface]
+        picList: [bar, train, meetup, touchface, restaurant, walking]
       }
       
       onClickNext= () => {
-          
           if (this.state.index + 1 === this.state.picList.length ){
               this.setState({ 
                   index: 0 
